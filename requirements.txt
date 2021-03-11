@@ -6,3 +6,8 @@ pip install keras
 pip install adam    
 pip install kwargs  
 pip install cinit 
+pandas~=1.2.3
+numpy~=1.20.1
+tensorflow~=2.4.1
+Keras~=2.4.3
+opencv-python~=4.5.1.48

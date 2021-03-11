@@ -1,14 +1,11 @@
-import sys, os
-import pandas as pd
 import numpy as np
-
-from tensorflow.keras import datasets, layers, models
-from keras.layers import Dense, Dropout, Activation, Flatten
-from keras.layers import Conv2D, MaxPooling2D, BatchNormalization, AveragePooling2D
+import pandas as pd
+from keras.layers import Conv2D, MaxPooling2D
+from keras.layers import Dense, Dropout, Flatten
 from keras.losses import categorical_crossentropy
 from keras.optimizers import Adam
-from keras.regularizers import l2
 from keras.utils import np_utils
+from tensorflow.keras import models
 
 # pd.set_option('display.max_rows', 500)
 # pd.set_option('display.max_columns', 500)
